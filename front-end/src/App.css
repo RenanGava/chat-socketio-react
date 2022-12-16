@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+.Container {
+  /* margin: 0 auto; */
+  width: 100%;
+  padding: 0 2%;
+  height: 100%;
+}
+
+.Chat {
+  max-width: 600px;
+  width: 100%;
+  margin: 8rem auto 0 auto;
+  border: 1px solid #cce;
+  border-radius: 8px;
+}
+
+.Chat form {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Chat form input[type=text] {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 1rem;
+  outline: 0;
+}
+
+.Chat form input[type=text]::placeholder{
+  font-weight: bold;
+}
+
+.button{
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
+  height: 40px;
+  margin-top: 1rem;
+  background-color: aqua;
+  outline: 0;
+  border: 0;
+}
+
+.button:hover{
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+.Chat-message {
+  max-width: 500px;
+  width: 100%;
+  height: 600px;
+  margin: 0.5rem auto;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 0.5rem;
+  position: relative;
+  /* overflow-y: scroll; */
+}
+
+/* .Chat-message p{
+  position: absolute;
+  text-align: left;
+  background-color: #cce;
+  daqui para baixo é para fazer o elemento acompanhar o tamanho do conteudo interno 
+  max-width: 480px;
+  width: auto;
+  overflow: visible;
+  height: auto;
+  padding: 0.3rem;
+  border-radius: 8px;
+/ */
+
+.align-Right{
+  text-align: right;
+}
+
+.Chat-message p span{
+  display: block;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: blue;
+  text-transform: capitalize;
+}
